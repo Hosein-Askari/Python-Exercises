@@ -1,0 +1,13 @@
+Movies
+series,picky blinder,director, 9.5,https://www.youtube.com/watch?v=YL4gleXsWUY&list=ELi8yAVq5YyaI,2h 45m,36,cllian murphy,Al pacino
+film,scarface,Brian De Palmam,8.3,https://www.youtube.com/watch?v=XeZkMwUZsIk,1h 45m,Al pacino
+film,red eye,direct,7.7,https://www.youtube.com/watch?v=ntWTxtxUBuc,2h 02m,cllian murphy
+film,shining,Stanley Kubrick,8.4,https://www.youtube.com/watch?v=E9TLJQN-v7E,2h 26m,Jack Nicholson
+November Rain,Andrew Morahan,7.9,https://www.youtube.com/watch?v=8SbUC-UaAxE,9m 16s,Axi Rose
+
+Actors
+cllian murphy,5/25/1976,1.75m,70kg,blue,picky blinder,red eye 
+Jack Nicholson,4/22/1937,1.77m,90kg,blue,china town
+Al pacino,4/25/1940,1.68m,75kg,brown,scarface,godfather
+humphrey bogart,12/25/1899,1.73m,75kg,brown,casablanca
+Axi Rose,2/6/1962,1.75,90kg,green,November Rain
