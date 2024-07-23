@@ -9,5 +9,5 @@ for i in range(0,301,100):
 
 
 
-cv2.imshow("",img)
+cv2.imshow("Chess-board",img)
 cv2.waitKey()
