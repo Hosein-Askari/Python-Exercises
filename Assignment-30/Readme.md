@@ -31,7 +31,7 @@ This part put reversed eyes and lips in face. It's normal picture till you rotat
 
 | Before | After |
 | --- | --- |
-|![4_5_2_2](https://github.com/user-attachments/assets/974be08a-8ebf-462b-932f-fa703409c27b)|![4_5_2_1](https://github.com/user-attachments/assets/db069ee6-d814-4139-9776-2ade0cd8f2d4)|
+|![4_5_2_2](https://github.com/user-attachments/assets/101979a8-4ae3-4535-9750-bec062f5c696)|![4_5_2_1](https://github.com/user-attachments/assets/e360b139-bca8-43c1-85a9-1cea07372104)|
 
 ## 3- Face Alignment
 This part roating image till the face get in a straight line position.
