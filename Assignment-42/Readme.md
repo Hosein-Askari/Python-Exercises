@@ -22,7 +22,7 @@ It's nootbook file, so just run cell by cell.
 
 ![6_2_1](https://github.com/user-attachments/assets/bb3362a0-3ad2-43cf-b250-f6a40c861959)
 
-* Draw confession matrix for each knn algorithm.
+* Draw confusion matrix for each knn algorithm.
   
 
 
