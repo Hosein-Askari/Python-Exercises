@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>752</width>
+    <height>589</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgb(5, 57, 226), stop:1 rgb(156, 7, 106));</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout" stretch="1,8,1">
+      <property name="spacing">
+       <number>8</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <layout class="QGridLayout" name="gridLayout_2" columnstretch="2,3,2">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="horizontalSpacing">
+         <number>10</number>
+        </property>
+        <property name="verticalSpacing">
+         <number>0</number>
+        </property>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="lineEdit_2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>MV Boli</family>
+            <pointsize>-1</pointsize>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(255, 255, 255,25);
+border-radius : 25px solid black;
+color: white;
+font-size : 40px;
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="cursorPosition">
+           <number>0</number>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>Yu Gothic UI Semibold</family>
+            <pointsize>28</pointsize>
+            <italic>false</italic>
+            <bold>true</bold>
+            <underline>false</underline>
+            <strikeout>false</strikeout>
+            <kerning>true</kerning>
+           </font>
+          </property>
+          <property name="mouseTracking">
+           <bool>true</bool>
+          </property>
+          <property name="acceptDrops">
+           <bool>true</bool>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LayoutDirection::LeftToRight</enum>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(255, 255, 255,25);
+border-radius : 25px solid black;
+color: white;
+background-image: url('Assignment-18/Tic_Toc_Toe/oo.png');
+background-repeat: no-repeat;
+background-position: left;
+ padding: 0 40px</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="echoMode">
+           <enum>QLineEdit::EchoMode::Normal</enum>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+          <property name="clearButtonEnabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QLineEdit" name="lineEdit_3">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>Yu Gothic UI Semibold</family>
+            <pointsize>28</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(255, 255, 255,25);
+border-radius : 25px solid black;
+color: white;
+background-image: url('Assignment-18/Tic_Toc_Toe/xx.png');
+background-repeat: no-repeat;
+background-position: left;
+  padding: 0 40px</string>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item row="1" column="1">
+         <widget class="QPushButton" name="pushButton_5">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 10px solid #30ffff;
+ border-width: 0px 0px 10px 0px;
+background-color: rgba(255, 255, 255,0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QPushButton" name="pushButton_9">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 10px solid rgb(48, 255, 255);
+border-width: 0px 0px 0px 10px;
+background-color: rgba(255, 255, 255,0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QPushButton" name="pushButton_3">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+border: 10px solid #2ff8f8 ;
+
+border-width :0 0 10 10;
+background-color:rgba(255,255,255,0);
+transition-duration: 0.4s;
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QPushButton" name="pushButton_4">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 10px solid #30ffff ;
+ border-width: 0px 10px 10px 0px;
+background-color: rgba(255, 255, 255,0);
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QPushButton" name="pushButton_1">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 10px solid #30ffff ;
+ border-width: 0px 10px 10px 0px;
+background-color: rgba(255, 255, 255,0);
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 10px solid rgb(48, 255, 255) ;
+ border-width: 0px 0px 10px 0px;
+background-color: rgba(255, 255, 255,0);
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QPushButton" name="pushButton_7">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 10px solid #30ffff ;
+ border-width: 0px 10px 0px 0px;
+background-color: rgba(255, 255, 255,0);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QPushButton" name="pushButton_6">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 10px solid rgb(48, 255, 255);
+ border-width: 0px 0px 10px 10px;
+background-color: rgba(255, 255, 255,0);
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QPushButton" name="pushButton_8">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>36</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(255, 255, 255,0);
+border: 0px solid rgb(48, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>true</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout" stretch="3,3,3">
+        <property name="spacing">
+         <number>10</number>
+        </property>
+        <item>
+         <widget class="QPushButton" name="pushButton">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>MV Boli</family>
+            <pointsize>20</pointsize>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+QPushButton:hover {
+                                                         
+border-radius :25px;
+background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgb(199, 9, 139), stop:0.4 rgb(6, 47, 182),stop:1 rgb(199, 9, 139));
+}
+
+QPushButton{
+                                                         
+border-radius : 25px;
+color:white;
+background-color:qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgb(6, 47, 182), stop:1 rgb(199, 9, 139));
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string>New game</string>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_10">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>MV Boli</family>
+            <pointsize>20</pointsize>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+QPushButton:hover {
+                                                         
+border-radius :25px;
+background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgb(199, 9, 139), stop:0.4 rgb(6, 47, 182),stop:1 rgb(199, 9, 139));
+}
+
+QPushButton{
+                                                         
+border-radius : 25px;
+color:white;
+background-color:qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgb(6, 47, 182), stop:1 rgb(199, 9, 139));
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string>About</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <property name="spacing">
+           <number>7</number>
+          </property>
+          <property name="leftMargin">
+           <number>10</number>
+          </property>
+          <property name="topMargin">
+           <number>7</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QRadioButton" name="radioButton_2">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>MV Boli</family>
+              <pointsize>13</pointsize>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QRadioButton {
+color:                  white;
+background-color:  rgba(0,0,0,0);
+}
+
+
+QRadioButton::indicator {
+    width:                  10px;
+    height:                 10px;
+    border-radius:          7px;
+
+}
+
+
+QRadioButton::indicator:checked {
+    background-color:       qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgb(5, 57, 226), stop:0.6 rgb(156, 7, 106));
+
+    border:                 2px solid white;
+}
+
+QRadioButton::indicator:unchecked {
+    background-color:       white;
+    border:                 2px solid white;
+}
+</string>
+            </property>
+            <property name="text">
+             <string>Player VS Computer</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="radioButton">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>MV Boli</family>
+              <pointsize>13</pointsize>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QRadioButton {
+color:                  white;
+background-color:  rgba(0,0,0,0);
+}
+
+
+QRadioButton::indicator {
+    width:                  10px;
+    height:                 10px;
+    border-radius:          7px;
+
+}
+
+
+QRadioButton::indicator:checked {
+    background-color:       qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgb(5, 57, 226), stop:0.6 rgb(156, 7, 106));
+
+    border:                 2px solid white;
+}
+
+QRadioButton::indicator:unchecked {
+    background-color:       white;
+    border:                 2px solid white;
+}
+</string>
+            </property>
+            <property name="text">
+             <string>Player VS Player</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
