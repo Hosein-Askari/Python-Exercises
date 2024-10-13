@@ -16,6 +16,9 @@ python calculator.py
 ```
 </br>
 
+|  |  |
+|----|-----|
+  | ![calculator_responsive_1](https://github.com/user-attachments/assets/6aa96c36-81c6-464b-8c1b-dacb5cd91a80)|  ![calculator_responsive_2](https://github.com/user-attachments/assets/8f8e0c4c-d42c-4a06-acab-82e84bf2180a)|
 
 
 
@@ -33,4 +36,8 @@ pip install PySide6
 ```
 python tic-tac-toe.py
 ```
-</br>
+![tic_tac_toe](https://github.com/user-attachments/assets/d2a25ce5-8a5a-4dbd-855e-5ae1d8567ed6)
+
+
+
+
